@@ -1,0 +1,164 @@
+@transit-blue: #5dc7d4;
+@transit-yellow: #fcaf17;
+@transit-orange: #e76525;
+@transit-purple: #42469c;
+@transit-green: #00a048;
+
+@import "seattletimes";
+@import "map";
+
+
+ .smallContainer{
+ 	margin: 0 auto;
+ 	max-width:960px;
+ 	width:100%;
+ }
+
+ .mediaContainer {
+    display: flex;
+    flex-flow: row;
+    max-width:100%;
+    justify-content:space around;
+    margin-top:-10px;
+ }
+
+ .mediaContainer-item {
+ 	flex: 1 50%;
+ }
+
+ .mediaContainer-item-peanut {
+ 	flex: 1 55.8%;
+ }
+
+ .mediaContainer-item-breach {
+ 	flex: 1 51.4%;
+ }
+
+ .caption {
+  margin: 6px auto 0;
+  max-width: 960px;
+  line-height: 1.2;
+  font-size: 14px;
+  font-style: italic;
+  font-family: @df-sans;
+  color: @df-middle-gray;
+}
+
+@media (max-width:720px) {
+  .caption {
+  margin: 6px 15px 0;
+}
+}
+
+.captionLeft {
+  margin: 6px auto 0;
+  max-width: 960px;
+  text-align: right;
+  line-height: 1.2;
+  font-size: 14px;
+  font-style: italic;
+  font-family: @df-sans;
+  color: @df-middle-gray;
+}
+
+.aside {
+    float: right;
+    width: 150px;
+    margin: 20px 500px 30px 30px;
+    font-family: "ff-dagny-web-pro", Helvetica Neue, Helvetica, sans-serif;
+    font-size:0.8em;
+    padding-left:16px;
+  border-left: 8px solid #f8f8f8;
+ }
+
+ @media (max-width:720px) {
+  .aside {
+  float:none;
+  width:100%;
+  margin: 0 auto;
+  
+}
+}
+
+
+header.splash{
+  position:relative;
+  with:100%;
+}
+.splash img {
+  position:absolute;
+  top:20%;
+  right:0;
+  opacity:0.8;
+  width:50%;
+  display:block;
+}
+
+@media (max-width:720px) {
+  .splash img {
+  position:relative;
+  top:20%;
+  right:0;
+  opacity:1;
+  width:100%;
+  display:block;
+}
+}
+
+.dropcap {
+    font-size: 72px;
+    float: left;
+    vertical-align: top;
+    line-height: 1;
+    width: auto;
+    background: rgba(36,96,82,0.8);
+    color: #f8f8f8;
+    padding: 4px 8px 4px 10px;
+    margin-right: 8px;
+}
+
+.text-block {
+  clear: both;
+  background: white;
+  padding: 20px 0;
+
+  &.project-head {
+    box-shadow: 0 16px 16px fade(black, 10%);
+  }
+
+  &.other-features {
+    box-shadow: 0 -16px 16px fade(black, 10%);
+  }
+
+  h3 {
+    border-top: 3px solid rgba(36, 96, 82, 0.8);
+    padding-top: 8px;
+
+    &.orange {
+      border-color: @transit-orange;
+    }
+
+    &.purple {
+      border-color: @transit-purple;
+    }
+
+    &.blue {
+      border-color: @transit-blue;
+    }
+  }
+}
+
+.source {
+  font-family: @df-sans;
+  font-size: 14px;
+}
+
+.other-features {
+  b {
+    display: block;
+  }
+
+  ul {
+    font-family: @df-sans;
+  }
+}

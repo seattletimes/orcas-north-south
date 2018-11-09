@@ -1,0 +1,42 @@
+[
+  {
+    "layer": "northern_residents",
+    "head": "Northern residents",
+    "text": "The northern residents generally keep to northern Vancouver Island and Southeast Alaska.",
+    "size": "24 feet",
+    "behavior": "Highly social, lifelong matriline extended family groups with vocal traditions/dialects.",
+    "population": "309 (as of 2017)"
+  },
+  {
+    "layer": "southern_residents",
+    "head": "Southern residents",
+    "text": "The southern residents ply the trans-boundary waters of the Salish Sea between the U.S. and Canada and outer coast of Washington, Oregon and even California.",
+    "size": "24 feet",
+    "behavior": "Highly social, lifelong matriline extended family groups with vocal traditions/dialects.",
+    "population": "74 (so far as of 2018)"
+  },
+  {
+    "layer": "transients",
+    "head": "Transients (Bigg's)",
+    "text": "The transients travel both places.",
+    "size": "24 feet",
+    "behavior": "Smaller family groups – offspring often separate from mothers.",
+    "population": "About 300 (as of 2013)"
+  },
+  {
+    "layer": "offshore",
+    "head": "Offshore",
+    "text": "The offshores typically keep to the outer continental shelf.",
+    "size": "24 feet",
+    "behavior": "Travel in groups of up to 100 individuals.",
+    "population": "About 300 (as of 2014)"
+  },
+  {
+    "layer": "three_types",
+    "head": "Separate and diverse",
+    "text": "The three types don’t interbreed, don’t share language, food or culture, and are not known to fight.",
+    "size": "",
+    "behavior": "",
+    "population": ""
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "sufficient-afterwards"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "/2018/orcas-in-peril"
+    }
+  },
+  "title": "Hostile Waters",
+  "description": "Orcas thrive in a land to the north. Why are Puget Sound's dying?",
+  "url": "https://projects.seattletimes.com/2018/orcas-in-peril",
+  "image": "assets/social.jpg",
+  "standout": false,
+  "embedded": false,
+  "production": true
+}
