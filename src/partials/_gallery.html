@@ -1,17 +1,18 @@
 <div class="gallery">
   <div class="image-wrapper">
-    <% var photos = grunt.data.csv.gallery.filter(function(c) {
-      return c.gallery == keyword;
+    <% var photos = grunt.data.json.underwater.filter(function(c) {
+
+      return c.caption == keyword;
+
     }) %>
 
     <% photos.forEach(function(c, i) { %>
         <% if (!i) { %>
           <div class="active gallery-img">
-            <img alt="<%= c.caption %>" data-index="<%= i %>" class="lazy-load" src="./assets/<%= c.image %>">
+            <img alt="<%= c.caption %>" data-index="<%= i %>" class="lazy-load" src="./assets/gallery/<%= c.image %>">
           </div>
-        <% } else { %>
           <div class="gallery-img" data-index="<%= i %>">
-            <img alt="<%= c.caption %>" data-index="<%= i %>" data-src="./assets/<%= c.image %>">
+            <img alt="<%= c.caption %>" data-index="<%= i %>" data-src="./assets/gallery<%= c.image %>">
           </div>
         <% } %>
 
