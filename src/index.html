@@ -37,7 +37,7 @@
     
     <video src="./assets/video/2-ns-southern-residents.mp4" autoplay playsinline loop muted>
     </video>
-    <div class="caption">J pod orcas swim off San Juan Island last summer. Scientists aboard a boat are attempting to feed live fish to J50, the small whale, to determine if fish can be used to administer medication to her. ––(John Gussman / NOAA Fisheries, under NMFS Research Permit 18786)</div>
+    <div class="caption">J pod orcas swim off San Juan Island last summer. Scientists aboard a boat are attempting to feed live fish to J50, the small whale, to determine if fish can be used to administer medication to her. (John Gussman / NOAA Fisheries, under NMFS Research Permit 18786)</div>
     
     <div class="constrained">    
         <%= t.renderMarkdown(archieml.story.section1) %>
@@ -49,12 +49,14 @@
         </div>
 
     
-    <div class="aside">
+    
+
+    <div class="constrained"> 
+<div class="aside">
         <h3>ABOUT  <br/>THIS SERIES</h3>
         <p>In the weeks and months ahead, The Seattle Times’ “<a href="https://www.seattletimes.com/seattle-news/environment/hostile-waters-orcas-killer-whale-puget-sound-washington-canada/" targe="blank">Hostile Waters</a>” series will continue to explore and expose the plight of the southern resident killer whales, among the most-enduring symbols of our region and most-endangered animals. We’ll examine the role humans have played in their decline, what can be done about it and why it matters.</p>
     </div>
 
-    <div class="constrained">    
         <%= t.renderMarkdown(archieml.story.section2) %>
     </div>
 
@@ -93,7 +95,7 @@
     <div class="smallContainer">
         <video src="./assets/video/1-ns-rubbing.mp4" autoplay playsinline loop muted>
         </video>
-        <div class="caption">Northern residents enjoy a sanctuary created just for them in the Robson Bight (Michael Bigg) Ecological Reserve, where during most of the year no boat traffic is allowed. In addition to the cleaner, quieter water, the whales enjoy rubbing their bodies on the smooth stones of the beach seemingly just for the delight of it. The reserve includes the beach as well as an important salmon stream and the upland forest that protects it, also closed to all uses to preserve the sanctuary. (Courtesy of Explore.Org)</div>
+        <div class="caption">Robson Bight (Michael Bigg) Ecological Reserve includes a favorite beach of the orcas as well as an important salmon stream and the upland forest that protects it. (Courtesy of Explore.Org)</div>
     </div>
     
     <div class="constrained">
@@ -156,11 +158,13 @@
         </section>
     <main class="content text-block">
 
-    <div class="aside">
+    
+    <div class="constrained">
+        <div class="aside">
         <h3>LEARN MORE</h3>
         <p>Explore a <a href="https://www.seattletimes.com/seattle-news/environment/an-orca-glossary-terms-you-should-know/" target="blank">glossary of orca terms</a> and our <a href="https://www.seattletimes.com/seattle-news/environment/books-and-resources-about-orcas/" target="blank">orca reading list.</a></p>
     </div>
-    <div class="constrained">
+
         <%= t.renderMarkdown(archieml.story.section8) %>
     </div>
 
@@ -171,12 +175,15 @@
        <div class="caption">Northern residents enjoy a sanctuary created just for them, where the whales enjoy rubbing their bodies on the smooth stones of the beach. (Image courtesy of Explore.Org)
         </div>
     </div>
-    <div class="constrained"><iframe style="min-height: 225px; width: 100%; max-width: 525px;" frameborder="no" scrolling="no" src="https://app.groundsource.co/surveys/textsms/12064294613/ORCA/?font=arial&button=000000"></iframe></div>
-    <div class="aside">
+    <div class="constrained">
+     <div class="aside-text">
         <h3>TEXT US</h3>
         <p>You can text with us about this project and get additional coverage from the series. Text ORCA to <a href="sms:1-206-429-4613">206-429-4613</a> to join the conversation.</p>
     </div>
-    <div class="constrained">
+    <iframe style="min-height: 225px; width: 100%; max-width: 720px" frameborder="no" scrolling="no" src="https://app.groundsource.co/surveys/textsms/12064294613/ORCA/?font=arial&button=000000"></iframe></div>
+    
+    <div class="constrained">  
+       
 
         <%= t.renderMarkdown(archieml.story.section9) %>
     </div>
