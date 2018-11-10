@@ -7,7 +7,7 @@
   <body>
 
     <%= t.include("partials/_nav.html") %>
-   <!--  <%= t.include("partials/_ad.html", { type: "banner" }) %> -->
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <main class="content text-block">
 
@@ -37,7 +37,7 @@
     
     <video src="./assets/video/2-ns-southern-residents.mp4" autoplay playsinline loop muted>
     </video>
-    <div class="caption">J Pod orcas swim near San Juan Island last August. Scientists aboard the boat are attempting to feed live fish to J50, the small whale, to determine if fish can be used to medicate her. The whale died less than a month later, before she could be helped. (John Gussman / NOAA Fisheries, under NMFS Research Permit 18786)</div>
+    <div class="caption">J pod orcas swim off San Juan Island last summer. Scientists aboard a boat are attempting to feed live fish to J50, the small whale, to determine if fish can be used to administer medication to her. ––(John Gussman / NOAA Fisheries, under NMFS Research Permit 18786)</div>
     
     <div class="constrained">    
         <%= t.renderMarkdown(archieml.story.section1) %>
@@ -60,7 +60,7 @@
 
 
     <img src="./assets/photos/hostileWaters_northern_spong.jpg">
-    <div class="caption">Paul Spong founded OrcaLab in 1970. At this remote whale-research station on Hanson Island, B.C., Spong and his wife, Helena, and a cadre of volunteers document the daily lives — and spectacular sounds — of the northern resident orcas. Spong has created a network of remote cameras and underwater microphones to non-invasively monitor a 50-square mile swath of the orcas' core habitat. (Steve Ringman/The Seattle Times)</div>
+    <div class="caption">Paul Spong founded OrcaLab in 1970 to document the daily lives — and spectacular sounds — of the northern resident orcas. (Steve Ringman/The Seattle Times) </div>
     
     <div class="constrained">
         <%= t.renderMarkdown(archieml.story.section3) %>
@@ -76,7 +76,7 @@
                 <img src="./assets/photos/hostileWaters_northern_old_cedar.jpg">
                 </div>
             </div>
-            <div class="caption">Pacific white-sided dolphins seem to fly as they skim the surface northeast of Vancouver Island. The environment of the northern residents is more like Puget Sound used to be, alive with wildlife and salmon and edged by forests cloaking the land to the waterline Forests nurture streams that support salmon that feed orcas in an unending cycle of life. (Steve Ringman/The Seattle Times)</div>
+            <div class="caption">Pacific white-sided dolphins seem to fly as they skim the surface northeast of Vancouver Island. The environment of the northern residents is more like Puget Sound used to be. (Steve Ringman/The Seattle Times)</div>
         </div>
 
     <div class="constrained">
@@ -84,7 +84,7 @@
     </div>
     
     <img src="./assets/photos/hostileWaters_northern_dorsalpair.jpg">
-    <div class="caption">Called the side-by-side tribe by the Namgis First Nation, northern resident orcas have the same close family bonds and culture as southern residents. Families, led by the matriarchs of the clan, stay together for life, and feed primarily on chinook salmon. (Steve Ringman/The Seattle Times)</div>
+    <div class="caption">Called the side-by-side tribe by the Namgis First Nation, northern resident orcas have the same close family bonds and culture as southern residents. Families, led by the matriarchs of the clan, stay together for life. (Steve Ringman/The Seattle Times)</div>
     
     <div class="constrained">
         <%= t.renderMarkdown(archieml.story.section5) %>
@@ -102,7 +102,7 @@
     
     <video src="./assets/video/3-ns-J35.mp4" autoplay playsinline loop muted>
     </video>
-    <div class="caption">Tahlequah, or J35, carries her dead infant on her head as she travels the waters along the west side of San Juan Island last July. She clung to the calf, which lived only one half-hour, for more than 1,000 miles, refusing to let it go. The sight of her sad journey raised worldwide concern at the plight of the southern resident orcas. (Michael Weiss / University of Exeter, courtesy of the Center for Whale Research, under NOAA permit 21238)</div>
+    <div class="caption">In scenes from July, Tahlequah, or J35, swims alone and to the left of a family member as she carries her dead calf on her head along the west side of San Juan Island. (Michael Weiss / University of Exeter, courtesy of the Center for Whale Research, under NOAA permit 21238)</div>
 
     <div class="constrained">
         <%= t.renderMarkdown(archieml.story.section7) %>
@@ -118,43 +118,33 @@
       <div class="backdrop">
 
      
-     <img src="./assets/photos/raster-map.jpg">
-        
+        <picture>
+        <source media="(max-width:420px)"
+        srcset="./assets/photos/north-south-orcas-M-map.jpg">
+        <img src="./assets/photos/raster-map.jpg">
+        </picture>     
         
       </div>
 
       <div class="first layer" data-layer="">
         <h2>Killer whales, the oceans' top predator</h2>
         <p>Killer whales are the most widely distributed whales in the world and found in every ocean. Three orca ecotypes reside in the waters of the northern Pacific Coast. While their ranges overlap, they are not known to interact, and each ecotype is genetically distinct.</p>
-
-
-
       </div>
 
-
-    <!--
-      <% json.stages.forEach(function(stage) { %>
-      <div class="layer" data-layer="<%= stage.layer %>">
-        <h2><%= stage.head %></h2>
-        <p><%= stage.text %></p>
-        <p><b>Size:</b> <%= stage.size %></p>
-        <p><b>Behavior</b> <%= stage.behavior %></p>
-        <p><b>Estimated population</b> <%= stage.population %></p>
-      </div>
-      <% }) %>
-      -->
-
-       <picture class="layerGraphic">
+<div class="layer">
+       <picture>
         <source media="(max-width:420px)"
         srcset="./assets/photos/north-south-orcas-M-main.png">
-        <img src="./assets/photos/north-south-orcas-W-main.png">
+        <img src="./assets/photos/north-south-orcas-M-main.png">
         </picture>
-
-        <picture class="layerGraphic">
+        </div>
+<div class="layer">
+        <picture>
         <source media="(max-width:420px)"
-        srcset="./assets/photos/north-south-orcas-M-charts.svg">
-        <img src="./assets/photos/north-south-orcas-W-charts.svg">
+        srcset="./assets/photos/north-south-orcas-M-charts.png">
+        <img src="./assets/photos/north-south-orcas-M-charts.png">
         </picture>
+        </div>
 
     </section>
 
@@ -165,8 +155,6 @@
         </div>
         </section>
     <main class="content text-block">
- <!---->   
-
 
     <div class="aside">
         <h3>LEARN MORE</h3>
@@ -180,19 +168,21 @@
     
     <div class="smallContainer">
        <img src="./assets/photos/hostileWaters_rubbing.jpg">
-       <div class="caption">Northern residents enjoy a sanctuary created just for them in the Robson Bight (Michael Bigg) Ecological Reserve, where during most of the year no boat traffic is allowed. In addition to the cleaner, quieter water, the whales enjoy rubbing their bodies on the smooth stones of the beach seemingly just for the delight of it. The reserve includes the beach as well as an important salmon stream and the upland forest that protects it, also closed to all uses to preserve the sanctuary. (Image courtesy of Explore.Org)</div>
-</div>
-    
+       <div class="caption">Northern residents enjoy a sanctuary created just for them, where the whales enjoy rubbing their bodies on the smooth stones of the beach. (Image courtesy of Explore.Org)
+        </div>
+    </div>
+    <div class="constrained"><iframe style="min-height: 225px; width: 100%; max-width: 525px;" frameborder="no" scrolling="no" src="https://app.groundsource.co/surveys/textsms/12064294613/ORCA/?font=arial&button=000000"></iframe></div>
     <div class="aside">
         <h3>TEXT US</h3>
         <p>You can text with us about this project and get additional coverage from the series. Text ORCA to <a href="sms:1-206-429-4613">206-429-4613</a> to join the conversation.</p>
     </div>
     <div class="constrained">
+
         <%= t.renderMarkdown(archieml.story.section9) %>
     </div>
         <div class="smallContainer">
             <img src="./assets/photos/hostileWaters_northern_lookout.jpg">
-            <div class="caption">Volunteers aloft in their tiny observation platform monitor the northern residents from the most remote outpost of OrcaLab, on Cracroft Point above Johnstone Strait. (Steve Ringman/The Seattle Times)</div>
+            <div class="caption">Volunteers on their tiny observation platform monitor the northern residents from the most remote outpost of OrcaLab, on Cracroft Point above Johnstone Strait. (Steve Ringman/The Seattle Times)</div>
         </div>
 
     <div class="constrained">
@@ -209,7 +199,7 @@
                 <img src="./assets/photos/hostileWaters_southern_three.jpg">
             </div>
         </div>
-        <div class="caption">The southern residents draw a crowd anywhere they go. This ferry pauses in its route to let passengers enjoy orcas frolicking nearby. Such sweet slices of life are increasingly rare in in the San Juan Islands in summer as the southern resident orca population declines and the whales spend more time elsewhere searching for food. (Steve Ringman/The Seattle Times)</div>
+        <div class="caption">A state ferry pauses in its route to let passengers enjoy orcas frolicking nearby. Such sweet slices of life are increasingly rare in the San Juan Islands in summer as the southern resident orca population declines and the whales spend more time elsewhere searching for food. (Steve Ringman/The Seattle Times)</div>
     </div>
 
     <div class="constrained">
@@ -218,7 +208,7 @@
 
     <div class="smallContainer">
         <img src="./assets/photos/hostileWaters_duwamish_elliottbay.jpg">
-        <div class="caption">Massive alteration of the Puget Sound ecosystem has destroyed the habitat that nourishes chinook salmon — the primary food for orca. Lack of food and industrial pollution, such as from the Superfund site in the Duwamish River,  are hurting the orcas' ability to reproduce. Shipping noise also makes it harder for orcas to find food. Unlike the northern residents that bore 10 calves just last year, the orcas that frequent Puget Sound have not successfully reproduced in three years. (Steve Ringman/The Seattle Times)</div>
+        <div class="caption">Massive alteration and degradation of the Puget Sound ecosystem is pushing the southern resident orcas to extinction. (Steve Ringman/The Seattle Times)</div>
     </div>
 
     <div class="constrained">
@@ -226,7 +216,7 @@
     </div>
 
     <img src="./assets/photos/hostileWaters_tahlequah.jpg">
-    <div class="caption">The tiny dead calf born to J35, or Tahlequah, is seen in this photo alongside Tahlequah's head as she carries her through the water for a 16th straight day, in Swanson Channel, BC. Tahlequah clung to the calf, which lived only one half hour, for at least 17 days and more than 1,000 miles.  Tahlequah's loss raised worldwide dismay at the plight of the critically endangered southern resident orca families. Mothers form close, lifelong bonds with their young. (Steve Ringman/The Seattle Times)</div>
+    <div class="caption">The tiny dead calf born to J35, or Tahlequah, is seen in this July photo alongside Tahlequah’s head as the mother carries her for an eighth straight day. (Steve Ringman/The Seattle Times)</div>
 
     <div class="constrained">
         <%= t.renderMarkdown(archieml.story.section13) %>
@@ -239,7 +229,7 @@
             <div class="mediaContainer-item">
                 <img src="./assets/photos/hostileWaters_northern_dorsal.jpg"></div>
         </div>
-        <div class="caption">The misshapen head of J50, a 3-year-old southern resident, is a sign of starvation. Hers was the third death in four months in a population that has not successfully reproduced in three years. Meanwhile the northern residents including this male, pictured at right, are growing in population and had 10 new calves in 2017. The two populations are the same type of orca, but live in very different environments. The southern residents thrived for thousands of years until their habitat was degraded by people. (Steve Ringman/The Seattle Times)</div>
+        <div class="caption">The misshapen head of J50, left, is a sign of starvation. She died in September. Meanwhile the northern residents, including the male at right, are growing in numbers. (Steve Ringman/The Seattle Times)</div>
     </div>
 
 
@@ -249,7 +239,7 @@
 
     <div class="smallContainer">
         <video src="./assets/video/4-ns-antibiotic.mp4" autoplay playsinline loop muted></video>
-        <div class="caption">Taking aim, veterinarian Martin Haulena of the Vancouver Aquarium delivers a dart full of antibiotics to J50, a critically ill southern resident killer whale last summer. Despite an emergency rescue plan to save her, J50 became the third death in four months among the crticially endangered southern resident population of killer whales last summer. (Courtesy of Martin Haulena)</div>
+        <div class="caption">Taking aim, veterinarian Martin Haulena of the Vancouver Aquarium delivers a dart full of antibiotics to J50, a critically ill southern resident killer whale, last summer. (Courtesy of Martin Haulena)</div>
     </div>
 
     <div class="constrained">
@@ -257,7 +247,7 @@
     </div>
 
     <img src="./assets/photos/hostileWaters_breach_mtbaker.jpg">
-    <div class="caption">Mount Baker provides a spectacular backdrop for a southern resident orca surging out of the water in an impressive leap. Orcas can swim 75 miles a day and more, with bursts of speed up to 30 mph, and are capable of diving deeper than 3,000 feet. (Steve Ringman/The Seattle Times)</div>
+    <div class="caption">Mount Baker provides a spectacular backdrop for K20, a female born in 1986. Orcas can swim 75 miles a day and more, with bursts of speed up to 30 mph, and are capable of diving deeper than 3,000 feet. (Steve Ringman/The Seattle Times)</div>
 
     <div class="constrained">
         <%= t.renderMarkdown(archieml.story.section16) %>
@@ -284,11 +274,12 @@
         </div>
 
     </ul>
-
-
+    <div class="constrained">
+    <%= t.include("partials/_comments.html", { article: "239115994" }) %>
+    </div>
+    
     </main>
 
-    
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
