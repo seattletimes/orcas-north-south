@@ -13,7 +13,8 @@
   "description": "Southern resident orcas are on the brink of extinction, while killer whales to the north are growing in numbers. The contrast exposes what’s killing Puget Sound’s orcas.",
   "url": "https://projects.seattletimes.com/2018/orcas-in-peril",
   "image": "assets/social.jpg",
-  "standout": false,
+  "sheets": ["1zAil9IsVgDm6cNc1Hc83CXWlovaf26rjNrckKMi4Ep8"],
+  "standout": true,
   "embedded": false,
   "production": true
 }
