@@ -287,6 +287,20 @@
     
     </main>
 
+    <script>
+        
+    <%
+var underwater = json.underwater;
+var galleries = {};
+underwater.forEach(function(underwater) {
+  var g = underwater.gallery || underwater.caption;
+  if (!galleries[g]) galleries[g] = [];
+  galleries[g].push(underwater);
+});
+%>
+window.galleryData = <%= JSON.stringify(galleries) %>;
+    </script>
+
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
