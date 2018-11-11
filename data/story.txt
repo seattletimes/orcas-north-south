@@ -169,7 +169,7 @@ To the north, life is so different; 10 new calves were born to orca families the
 
 section17:
 
-Lynda V. Mapes: 206-464-2515 or lmapes@seattletimes.com; on Twitter: @LyndaVMapes. Lynda specializes in coverage of the environment, natural history, and Native American tribes.
+Lynda V. Mapes: 206-464-2515 or <a href="mailto:lmapes@seattletimes.com"> lmapes@seattletimes.com</a>; on Twitter: <a href="https://twitter.com/lyndavmapes" target="_blank">@LyndaVMapes</a>. Lynda specializes in coverage of the environment, natural history, and Native American tribes.
 
 :end
 

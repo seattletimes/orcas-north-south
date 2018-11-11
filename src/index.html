@@ -247,7 +247,14 @@
         <%= t.renderMarkdown(archieml.story.section17) %>
     </div>
 
-    <ul class="constrained">
+    <div class="constrained">
+     <div class="aside-text">
+        <h3>JOIN THE CONVERSATION</h3>
+        <p>You can text with us about this project and get additional coverage from the series. Text ORCA to <a href="sms:1-206-429-4613">206-429-4613</a> to comment on the story.</p>
+    </div>
+    <iframe style="min-height: 225px; width: 100%; max-width: 720px" frameborder="no" scrolling="no" src="https://app.groundsource.co/surveys/textsms/12064294613/ORCA/?font=arial&button=000000"></iframe></div>
+    <footer class="constrained">
+    <ul class="aside-text">
         <h3 style="text-align:center;">CREDITS</h3>
         <div style="column-count:2;list-style-type: none">
         <li><strong>Reporter:</strong>  Lynda V. Mapes</li>
@@ -264,9 +271,8 @@
         </div>
 
     </ul>
-    <div class="constrained">
-    <%= t.include("partials/_comments.html", { article: "239115994" }) %>
-    </div>
+    </footer>
+    
     
     </main>
 
