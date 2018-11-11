@@ -12,7 +12,7 @@ The difference between them is us.
 
 section1:
 
-The southern residents are struggling to survive amid waters influenced by more than 6 million people, between Vancouver and Seattle, with pollution, habitat degradation and fishery declines. The plight of the southern residents has become grimly familiar as they slide toward extinction, with three more deaths just last summer. Telling was the sad journey of J35, or Tahlequah, traveling more than 1,000 miles for at least 17 days, clinging to her dead calf, which lived only one half-hour.
+The southern residents are struggling to survive amid waters influenced by more than 6 million people, between Vancouver and Seattle, with pollution, habitat degradation and fishery declines. The plight of the southern residents has become grimly familiar as they slide toward extinction, with three more deaths just last summer. Telling was the sad journey of J35, or <a href="https://www.seattletimes.com/seattle-news/environment/a-mother-orcas-dead-calf-and-the-grief-felt-around-the-world/" target="_blank">Tahlequah</a>, traveling more than 1,000 miles for at least 17 days, clinging to her dead calf, which lived only one half-hour.
 :end
 
 section2:
@@ -33,7 +33,7 @@ section3:
 
 ## A remote land to the north
 
-<div class="dropcap">P</div>aul Spong stuffs a pair of chainsaw ear muffs on his head to block out the racket as he pilots his boat to collect visitors arriving at OrcaLab, his remote, land-based whale research station on Hanson Island, on the northeast side of Vancouver Island.
+<div class="dropcap">P</div>aul Spong stuffs a pair of chainsaw ear muffs on his head to block out the racket as he pilots his boat to collect visitors arriving at <a href="http://orcalab.org/" target="_blank">OrcaLab</a>, his remote, land-based whale research station on Hanson Island, on the northeast side of Vancouver Island.
 
 OrcaLab grows on the shore of the island like a huckleberry bush sprawling from an old-growth stump: organic and nestled into its place. And what a place it is.
 
@@ -55,7 +55,7 @@ section5:
 
 Leaning on a wooden rail of the deck overlooking the glassy water, Spong speaks softly of the life he and his wife, Helena Symonds, have lived here amid the whales.
 
-Behind him, inside his lab, an ever-changing cadre of research volunteers monitors feeds from underwater cameras Spong has placed throughout the area over the years to non-invasively document the lives of passing whales. Hydrophones — underwater microphones — also monitor the water from a listening network Spong has established over about 50 square kilometers in the orcas’ core habitat. Live webcams also bring the wonder of this place to the world.
+Behind him, inside his lab, an ever-changing cadre of research volunteers monitors feeds from underwater cameras Spong has placed throughout the area over the years to non-invasively document the lives of passing whales. Hydrophones — underwater microphones — also monitor the water from a listening network Spong has established over about 50 square kilometers in the orcas’ core habitat. <a href="http://www.orca-live.net/community/index.html" target="_blank">Live webcams</a> also bring the wonder of this place to the world.
 
 :end
 
@@ -87,13 +87,13 @@ They are superheroes of the sea, traveling 75 miles a day and more, with bursts 
 
 Yet they are so much more than all business. The northern and southern residents are playful, athletic and extremely tactile, continually touching and interacting in the water, with babies tossed by their parents and rolled over their backs. Their social lives are rich. Males and females can mate year-round.
 
-Spong shows underwater footage from cameras at Robson Bight (Michael Bigg) Ecological Reserve, set aside just for the whales. Here on beaches of round, smooth stones, they eagerly seek out their pleasures: The orcas slide through pellucid, aquamarine water, pressing the air in silvery bubbles from their lungs in order to sink low and scooch over the stones. They rub their bodies over the pebbles, seemingly just for the delight of it.
+Spong shows underwater footage from cameras at <a href="http://www.env.gov.bc.ca/bcparks/eco_reserve/robsonb_er.html" target="_blank">Robson Bight (Michael Bigg) Ecological Reserve</a>, set aside just for the whales. Here on beaches of round, smooth stones, they eagerly seek out their pleasures: The orcas slide through pellucid, aquamarine water, pressing the air in silvery bubbles from their lungs in order to sink low and scooch over the stones. They rub their bodies over the pebbles, seemingly just for the delight of it.
 
 :end
 
 section9:
 
-The sanctuary is visible from a remote OrcaLab observation outpost on Cracroft Point, with underwater cameras in fixed locations to serve as windows into the lives of the whales. A shack atop a tiny platform on the point is the base camp for volunteers who also document the comings and goings of the whales and the human activities around them.
+The sanctuary is visible from a remote OrcaLab observation outpost on <a href="https://www.youtube.com/watch?v=wJUwiWwKUNc" target="_blank">Cracroft Point</a>, with underwater cameras in fixed locations to serve as windows into the lives of the whales. A shack atop a tiny platform on the point is the base camp for volunteers who also document the comings and goings of the whales and the human activities around them.
 
 Down the coast, more volunteers also are at work at the aptly named Eagle Eye Research Station. Reached with the help of a rope, climbed hand over hand up a steep cliff, volunteers here guard the reserve, established as a sanctuary just for killer whales in 1982 by the B.C. government. They keep an eye out for any boat — motorized or not — that might intrude on the whales’ peace and privacy, and they log whale sightings and boat activity. Marine wardens on patrol work to keep boaters the required 200-meter distance away from the whales outside the reserve, and guard the waters within it.
 
@@ -115,7 +115,7 @@ section11:
 
 <div class="dropcap">I</div>t was these hostile waters through which Tahlequah swam, carrying her sad burden day after day. She swam south of Vancouver, past the coal docks piled high and ghosting black dust into the water. She swam through busy shipping lanes in Haro Strait, amid oceangoing container ships and oil tankers towering over her. She swam through busy boat traffic, including commercial whale-watch boats that make millions of dollars every season. Vessel noise masks the sounds the orcas use to find their food, adding to their troubles.
 
-She and her family contend with other threats to their survival too: toxics that seep into the food chain, then into whale mothers’ milk. A recent study predicted a global killer-whale population collapse because of polychlorinated biphenyls, or PCBs, in the orcas’ food chain. A group of toxic, man-made chemicals, PCBs were banned from manufacture in the U.S. in 1979, but are still ubiquitous in the environment.
+She and her family contend with other threats to their survival too: toxics that seep into the food chain, then into whale mothers’ milk. <a href="https://www.documentcloud.org/documents/4953812-KillerwhalePCB.html" target="_blank">A recent study</a> predicted a global killer-whale population collapse because of polychlorinated biphenyls, or PCBs, in the orcas’ food chain. A group of toxic, man-made chemicals, PCBs were banned from manufacture in the U.S. in 1979, but are still ubiquitous in the environment.
 
 :end
 
@@ -153,7 +153,7 @@ Barry Thom, regional administrator for NOAA Fisheries West Coast Region, faced a
 
 section15:
 
-In response, Gov. Jay Inslee has convened a task force on orca recovery, meeting now to devise recommendations due Nov. 16 for this legislative session. Whether those efforts will result in the far-reaching changes the orcas need — from cleaner water to quieter foraging and more chinook — is yet to be seen.
+In response, Gov. Jay Inslee has convened a <a href="https://www.governor.wa.gov/issues/issues/energy-environment/southern-resident-killer-whale-recovery-and-task-force" target="_blank">task force</a> on orca recovery, meeting now to devise recommendations due Nov. 16 for this legislative session. Whether those efforts will result in the far-reaching changes the orcas need — from cleaner water to quieter foraging and more chinook — is yet to be seen.
 
 As winter looms, scientists’ drone photography shows several of the southern residents are looking thinner than they were at the start of their seasonal year in the Salish Sea — a bad way to start the leanest season of all.
 

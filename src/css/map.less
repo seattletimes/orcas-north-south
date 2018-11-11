@@ -12,13 +12,10 @@
   }
 }
 
-
-
 .activated{
   animation-duration: 10s;
   animation-name: fadeIn;
 }
-
 
 .key {
   margin: 0;
@@ -82,8 +79,21 @@
 .scroll-content {
   max-width: 970px;
   margin: 0 auto;
+  background-image: url("./assets/photos/raster-map.jpg");
+  min-height: 3500px; 
 
-  .backdrop {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 920px;
+
+    @media (max-width:1024px) {
+    background-image: none;
+    min-height: 0px;
+    }
+
+    .backdrop {
     position: fixed;
     top: 0;
     width: 970px;
@@ -102,7 +112,7 @@
     }
 
     @media @mobile {
-      width: 100%;
+      display: 100%;
     }
 
     svg {
@@ -138,13 +148,11 @@
   }
 
 
-
-
   .layer {
     float: right;
     margin-right: 45px;
     margin-bottom: 300px;
-    margin-bottom: 60vh;
+    margin-bottom: 30vh;
     width: 480px;
     color:white;
     background-color:rgba(128,128,128,0.3);
@@ -154,15 +162,29 @@
     font-size: 16px;
     
 
-    @media @mobile {
+    @media (max-width:1024px) {
       width: 100%;
-      margin: 0 0 500px;
+      margin: 0;
       background-color:rgba(128,128,128,0.9);
     }
 
     &.first {
       margin-top: 200px;
       margin-top: 20vh;
+
+      @media (max-width:1024px){
+      margin-top: 0;
+      margin-top: 0;
+      }
+    }
+
+    &.first img {
+      display:none;
+
+
+      @media (max-width:1024px) {
+      display:block;
+      }
     }
 
 
@@ -201,3 +223,4 @@
     }
   }
 }
+

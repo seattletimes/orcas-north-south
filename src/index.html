@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-US">
   <head>
+  <meta property="og:image" content="https://projects.seattletimes.com/2018/orcas-in-peril/assets/social.jpg" />
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -10,6 +11,8 @@
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <main class="content text-block">
+
+    
 
     <header class="splash">
 
@@ -54,7 +57,7 @@
     <div class="constrained"> 
 <div class="aside">
         <h3>ABOUT  <br/>THIS SERIES</h3>
-        <p>In the weeks and months ahead, The Seattle Times’ “<a href="https://www.seattletimes.com/seattle-news/environment/hostile-waters-orcas-killer-whale-puget-sound-washington-canada/" targe="blank">Hostile Waters</a>” series will continue to explore and expose the plight of the southern resident killer whales, among the most-enduring symbols of our region and most-endangered animals. We’ll examine the role humans have played in their decline, what can be done about it and why it matters.</p>
+        <p>In the weeks and months ahead, The Seattle Times’ “<a href="https://www.seattletimes.com/seattle-news/environment/hostile-waters-orcas-killer-whale-puget-sound-washington-canada/" targe="_blank">Hostile Waters</a>” series will continue to explore and expose the plight of the southern resident killer whales, among the most-enduring symbols of our region and most-endangered animals. We’ll examine the role humans have played in their decline, what can be done about it and why it matters.</p>
     </div>
 
         <%= t.renderMarkdown(archieml.story.section2) %>
@@ -117,35 +120,21 @@
       </div>
     </section>
     <section class="scroll-content">
-      <div class="backdrop">
-
-     
-        <picture>
-        <source media="(max-width:420px)"
-        srcset="./assets/photos/north-south-orcas-M-map.jpg">
-        <img src="./assets/photos/raster-map.jpg">
-        </picture>     
-        
-      </div>
+      
 
       <div class="first layer">
         <h2>Killer whales, the oceans' top predator</h2>
         <p>Killer whales are the most widely distributed whales in the world and found in every ocean. Three orca ecotypes reside in the waters of the northern Pacific Coast. While their ranges overlap, they are not known to interact, and each ecotype is genetically distinct.</p>
+        <img src="./assets/photos/north-south-orcas-M-map.jpg">
       </div>
 
 <div class="layer">
-       <picture>
-        <source media="(max-width:420px)"
-        srcset="./assets/photos/north-south-orcas-M-main.png">
-        <img src="./assets/photos/north-south-orcas-M-main.png">
-        </picture>
+       <img src="./assets/photos/north-south-orcas-M-main.png">
+        
         </div>
 <div class="layer">
-        <picture>
-        <source media="(max-width:420px)"
-        srcset="./assets/photos/north-south-orcas-M-charts.png">
         <img src="./assets/photos/north-south-orcas-M-charts.png">
-        </picture>
+        
         </div>
 
     </section>
@@ -157,7 +146,7 @@
     <div class="constrained">
         <div class="aside">
         <h3>LEARN MORE</h3>
-        <p>Explore a <a href="https://www.seattletimes.com/seattle-news/environment/an-orca-glossary-terms-you-should-know/" target="blank">glossary of orca terms</a> and our <a href="https://www.seattletimes.com/seattle-news/environment/books-and-resources-about-orcas/" target="blank">orca reading list.</a></p>
+        <p>Explore a <a href="https://www.seattletimes.com/seattle-news/environment/an-orca-glossary-terms-you-should-know/" target="_blank">glossary of orca terms</a> and our <a href="https://www.seattletimes.com/seattle-news/environment/books-and-resources-about-orcas/" target="_blank">orca reading list.</a></p>
     </div>
 
         <%= t.renderMarkdown(archieml.story.section8) %>
@@ -281,21 +270,13 @@
     
     </main>
 
-    <script>
+
+    <section class="text-block project-head" id="projects">
+      <div class="constrained">
         
-    <%
-var underwater = json.underwater;
-var galleries = {};
-underwater.forEach(function(underwater) {
-  var g = underwater.gallery || underwater.caption;
-  if (!galleries[g]) galleries[g] = [];
-  galleries[g].push(underwater);
-});
-%>
-window.galleryData = <%= JSON.stringify(galleries) %>;
-    </script>
-
-
+      </div>
+    </section>
+    
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
